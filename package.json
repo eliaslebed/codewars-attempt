@@ -1,0 +1,22 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "yarn run clean && parcel ./src/index.pug",
+    "clean": "rimraf ./src/dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "stylus": "^0.54.5",
+    "typescript": "^3.1.6"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "reset-css": "^4.0.1",
+    "rimraf": "^2.6.2"
+  }
+}
